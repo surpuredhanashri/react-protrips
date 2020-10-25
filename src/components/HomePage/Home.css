@@ -1,0 +1,39 @@
+.home {
+  background-color: #0e1821;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.trips-distribution {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+}
+
+.trips-distribution img {
+  display: inline-block;
+  width: 15px;
+}
+
+.home span {
+  font-size: 5em;
+}
+
+.home > p:nth-child(1) {
+  margin-top: 100px;
+}
+
+.trips-distribution p {
+  margin-bottom: 150px;
+}
+
+#trips-span {
+  font-size: 1em;
+  font-weight: 200;
+  position: relative;
+  top: 10px;
+}
