@@ -1,0 +1,39 @@
+.new-trip {
+  background-color: #0e1821;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.new-trip h1 {
+  font-weight: 500;
+  letter-spacing: 2.5px;
+  margin-bottom: 50px;
+  margin-left: 70px;
+}
+
+.submit {
+  /* color: white; */
+  border: 1px solid white;
+  padding: 10px 20px;
+  margin-left: 100px;
+  cursor: pointer;
+}
+
+.new-trip p {
+  margin-bottom: 5px;
+}
+
+.new-trip input,
+.new-trip select {
+  width: 130%;
+  margin-bottom: 25px;
+  padding: 10px 5px;
+  font-size: 1em;
+}
+
+.new-trip select {
+  width: 135%;
+}
